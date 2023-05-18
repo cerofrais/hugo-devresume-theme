@@ -2,6 +2,10 @@
   translation: Awards
 - id: education
   translation: Education
+- id: patents
+  translation: Patents
+- id: certificates
+  translation: Certificates
 - id: experiences
   translation: Work Experience
 - id: information

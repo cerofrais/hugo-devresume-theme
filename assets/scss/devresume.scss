@@ -128,7 +128,7 @@ a.theme-link {
 }
 
 a.resume-link {
-	color: $theme-text-color-secondary;
+	color: $theme-color-primary;
 	&:hover {
 		color: $theme-color-primary;
 	}
@@ -166,7 +166,7 @@ a.resume-link {
 }
 
 
-.resume-education-list, .resume-awards-list {
+.resume-education-list, .resume-awards-list, .resume-patents-list, .resume-certis-list {
     font-size: 0.875rem;
 }
 
@@ -203,9 +203,6 @@ a.resume-link {
 	    border-left: 0;
     }
 }
-
-
-
 
 
 

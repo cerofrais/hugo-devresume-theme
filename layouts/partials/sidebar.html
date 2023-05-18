@@ -10,6 +10,14 @@
                             {{ partial "awards.html" . }}
                             {{ end }}
 
+                            {{ if .Site.Params.patents.enable }}
+                            {{ partial "patents.html" . }}
+                            {{ end }}
+
+                            {{ if .Site.Params.certi.enable }}
+                            {{ partial "certi.html" . }}
+                            {{ end }}
+
                             {{ if .Site.Params.skills.enable }}
                             {{ partial "skills.html" . }}
                             {{ end }}
